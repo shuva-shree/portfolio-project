@@ -14,7 +14,7 @@ export const HeroSection = () => {
         </h1>
 
         <p className="mt-6 text-lg sm:text-xl md:text-2xl text-muted-foreground opacity-0 animate-fade-in-delay-3">
-            Lorem Ipsum (write something about you)
+            Software Developer, PWC | Tech Enthusiast | Problem Solver
         </p>
 
         <div className="pt-4 opacity-0 animate-fade-in-delay-4">

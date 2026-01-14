@@ -7,6 +7,7 @@ import { SkillsSection } from "../components/SkillsSections"
 import ProjectsSection from "../components/ProjectsSection"
 import { Contact } from "lucide-react"
 import ContactsSection from "../components/ContactsSection"
+import { Footer } from "../components/Footer"
 export const Home = () => {
     return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
         { /* Theme Toggle */ }
@@ -28,6 +29,7 @@ export const Home = () => {
             { /* Contact Section */ }
             <ContactsSection/>
         </main>
+        <Footer/>
         { /* Footer */ }
     </div>
 }
